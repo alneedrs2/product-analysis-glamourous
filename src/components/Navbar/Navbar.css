@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    padding: 0 10%;
+    font-family: "Teko", sans-serif;
+  }
+  
+  .title-container {
+    display: flex;
+    align-items: center;
+    color: #ec1717ee;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .link {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 20px;
+    transition: color ease-in-out 300ms;
+    color: #1b4388;
+  }
+  
+  .active-link {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+    transition: color ease-in-out 300ms;
+    color: #bb0c0c;
+  }
+  

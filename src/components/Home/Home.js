@@ -8,7 +8,7 @@ const Home = () => {
   const [review, setReview] = useReview();
   return (
     <div>
-      <div className="grid gap-4 grid-cols-2 grid-rows-2 mt-10 mx-10 pt-10 px-10 home-color">
+      <div className="grid gap-4 md:grid-cols-2 mb-10 mx-10 pt-10 px-10 home-color items-center">
         <div className="mt-10">
           <h1 className="text-4xl text-red-500">ALL ABOUT GLAMOURS</h1>
           <p className="py-5">
@@ -30,17 +30,20 @@ const Home = () => {
           <img
             src="https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
             alt=""
-            height={150}
+            height={100}
             width={500}
           />
         </div>
       </div>
       <div className="my-5">
-        <h1 className="text-4xl text-center">Product Reviews</h1>
+        <h1 className="text-4xl mt-5 text-center">Most Valuable Reviews</h1>
         {review.slice(0, 3).map((item) => (
           <AllReview key={item.id} item={item}></AllReview>
         ))}
-        <Link to={'/reviews'} className="my-5 ml-10 py-2 px-4 bg-yellow-500 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-opacity-75">
+        <Link
+          to={"/reviews"}
+          className="my-5 ml-10 py-2 px-4 bg-yellow-500 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-opacity-75"
+        >
           See All Reviews
         </Link>
       </div>

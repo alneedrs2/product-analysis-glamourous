@@ -6,10 +6,11 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import NotFound from "./components/NotFound/NotFound";
 import Reviews from "./components/Reviews/Reviews";
+import './App.css'
 
 function App() {
   return (
-    <>
+    <div className="ctr-display">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -19,7 +20,7 @@ function App() {
         <Route path="/about" element={<About></About>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
-    </>
+    </div>
   );
 }
 

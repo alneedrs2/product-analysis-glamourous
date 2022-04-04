@@ -66,6 +66,7 @@ const MyChart = () => {
     <div>
       <div className="chart-container">
         <div className="line-chart1">
+          <h1 className="text-center text-2xl">Investment vs Revenue</h1>
           <LineChart width={500} height={400} data={data}>
             <Line dataKey={"revenue"}></Line>
             <Line dataKey={"investment"}></Line>
@@ -75,7 +76,9 @@ const MyChart = () => {
             <Legend />
           </LineChart>
         </div>
+
         <div className="line-chart2">
+          <h1 className="text-center text-2xl">Investment vs Revenue</h1>
           <BarChart
             width={700}
             height={500}

@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white border-gray-200 container mx-auto px-2 sm:px-4 py-5 rounded">
+    <nav className="bg-orange-200 border-gray-200 mx-auto px-2 sm:px-4 py-5 rounded">
       <div className="title-container">
         <h1 className="text-3xl">GLAMOROUS</h1>
       </div>

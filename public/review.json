@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Salena Gomez",
+    "reviewText": "WOW! Impressed with the faster product delivery. Nothing to say about the site. Glamourous is the best.",
+    "ratings": "5 Stars"
+  },
+  {
+    "id": "2",
+    "name": "Hayat Mahmud",
+    "reviewText": "WOW! Impressed with the faster product delivery. Nothing to say about the site. Glamourous is the best.",
+    "ratings": "5 Stars"
+  },
+  {
+    "id": "3",
+    "name": "Ramanujan Shrivastav",
+    "reviewText": "WOW! Impressed with the faster product delivery. Nothing to say about the site. Glamourous is the best.",
+    "ratings": "5 Stars"
+  },
+  {
+    "id": "4",
+    "name": "Kritika Singh",
+    "reviewText": "WOW! Impressed with the faster product delivery. Nothing to say about the site. Glamourous is the best.",
+    "ratings": "4.2 Stars"
+  },
+  {
+    "id": "5",
+    "name": "Dimple Sharma",
+    "reviewText": "WOW! Impressed with the faster product delivery. Nothing to say about the site. Glamourous is the best.",
+    "ratings": "3 Stars"
+  },
+  {
+    "id": "6",
+    "name": "Shreya Bhattacharya",
+    "reviewText": "WOW! Impressed with the faster product delivery. Nothing to say about the site. Glamourous is the best.",
+    "ratings": "5 Stars"
+  }
+]

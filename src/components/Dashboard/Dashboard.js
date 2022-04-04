@@ -1,11 +1,14 @@
 import React from 'react';
 
-const Dashboard = () => {
-    return (
-        <div>
-            
+import MyChart from '../MyChart/MyChart';
+
+const Dashbord = () => {
+
+      return (
+            <div className='my-chart'>
+                  <MyChart></MyChart>
         </div>
-    );
+      );
 };
 
-export default Dashboard;
+export default Dashbord;
